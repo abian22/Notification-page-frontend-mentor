@@ -11,6 +11,13 @@ img {
   margin-left: 20px;
   position: absolute;
 }
+.noticardstyle {
+  width:90vw
+}
+.comment {
+  border: solid;
+  width: 60vw;
+}
 
 
 @media (min-width: 768px) {
@@ -22,5 +29,13 @@ img {
     border: solid;
     top: 8%; 
     right:23%
+  }
+  .noticardstyle {
+    width:48vw;
+  }
+  .comment {
+    width:32vw;
+    border: 1px solid;
+    align-items: center;
   }
 }
