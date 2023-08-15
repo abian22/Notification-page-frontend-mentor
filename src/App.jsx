@@ -7,7 +7,7 @@ import kimberly from "../src/assets/images/avatar-kimberly-smith.webp";
 import nathan from "../src/assets/images/avatar-nathan-peterson.webp";
 import anna from "../src/assets/images/avatar-anna-kim.webp";
 import picture from "../src/assets/images/image-chess.webp";
-import CircleNotification from "./components/CircleNotification/circleNotification";
+import CircleNotification from "./components/CircleNotification/CircleNotification";
 import NotificationCardPicture from "./components/NotificationCardPicture/NotificationCardPicture";
 import NotificationCard from "./components/NotificationCard/NotificationCard";
 import NotificationCardComment from "./components/NotificationCardComment/NotificationCardComment";
