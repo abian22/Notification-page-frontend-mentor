@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'plusJakarta';
+  src: url('./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf')
+}
+
 body {
   background-color:  hsl(210, 60%, 98%);
   margin:0px;
   padding:0px;
+  color:grey;
+  font-family: "plusJakarta";
+  font-size: 14px;
 }

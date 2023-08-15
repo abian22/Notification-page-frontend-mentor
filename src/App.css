@@ -15,8 +15,19 @@ img {
   width:90vw
 }
 .comment {
-  border: solid;
-  width: 60vw;
+  width:60vw;
+  border: 1px solid;
+  align-items: center;
+  padding: 10px;
+  
+}
+.comment:hover {
+  background-color: hsl(211, 68%, 94%);
+  border: inherit
+}
+.readButton:hover{
+  border-bottom: 1px solid;
+  color: black;
 }
 
 
@@ -24,18 +35,27 @@ img {
   .card {
     height: 85vh; 
     width: 50%;
-    margin: 0 auto; 
     position: absolute;
-    border: solid;
+    box-shadow: 5px 5px 20px; 
     top: 8%; 
-    right:23%
+    right:23%;
+    margin-bottom: 10px;
+
   }
   .noticardstyle {
     width:48vw;
   }
+
   .comment {
-    width:32vw;
+    width:33vw;
     border: 1px solid;
     align-items: center;
+    padding: 6px;
   }
+  .comment:hover {
+    background-color: hsl(211, 68%, 94%);
+    border: inherit
+  }
+ 
 }
+
