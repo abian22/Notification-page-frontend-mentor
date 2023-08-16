@@ -34,7 +34,7 @@ img {
 @media (min-width: 768px) {
   .card {
     height: 85vh; 
-    width: 50%;
+    width: 43%;
     position: absolute;
     box-shadow: 5px 5px 20px; 
     top: 8%; 
@@ -47,7 +47,7 @@ img {
   }
 
   .comment {
-    width:33vw;
+    max-width:25vw;
     border: 1px solid;
     align-items: center;
     padding: 6px;

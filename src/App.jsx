@@ -35,9 +35,9 @@ function App() {
   return (
     <>
       <div className="container-fluid p-0 card" style={{ height: "auto" }}>
-        <span style={{ right: "0" }}>
-          {" "}
-          <strong style={{ color: "black", marginLeft:"10px" }}>
+        <span >
+          <div style={{display:"flex", justifyContent:"space-around"}}>
+          <strong style={{ color: "black", fontSize:"20px" }}>
             Notifications{" "}
             <span
               className="notiCounter"
@@ -48,7 +48,7 @@ function App() {
                 borderRadius: "7px",
                 backgroundColor: "blue",
                 width: "20px",
-                height: "18px",
+                height: "25px",
                 display: "inline-block",
                 textAlign: "center",
                 marginTop: "5px",
@@ -60,12 +60,13 @@ function App() {
           </strong>
           <span
             className="readButton"
-            style={{ marginLeft: "42%", cursor: "pointer" }}
+            style={{cursor: "pointer", textAlign:"end", marginTop:"5px"}}
             onClick={() => markAllRead()}
           >
             {" "}
             mark all as read
           </span>
+          </div>
           <div className="row">
             <div
               className=" col-12 col-md-6 noticardstyle"
